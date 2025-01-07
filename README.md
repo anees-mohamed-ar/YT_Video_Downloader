@@ -1,6 +1,6 @@
-# YouTube Video Downloader Project
+# YouTube Video Downloader
 
-This project allows you to download videos from YouTube using a user-friendly interface.
+This application allows you to download videos from YouTube using a user-friendly interface.
 
 ## Features
 
