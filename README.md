@@ -15,12 +15,40 @@ This project allows you to download videos from YouTube using a user-friendly in
 - Python 3.x
 - `tkinter`
 - `yt-dlp`
+- `ffmpeg`
 
 Install the required libraries:
 
 ```bash
 pip install tk yt-dlp
 ```
+
+### Install and Set Up `ffmpeg`
+
+1. **Download `ffmpeg`**:
+   - Go to the [FFmpeg download page](https://ffmpeg.org/download.html) and download the appropriate version for your operating system.
+
+2. **Extract `ffmpeg`**:
+   - Extract the downloaded files to a directory of your choice.
+
+3. **Add `ffmpeg` to PATH**:
+   - **Windows**:
+     - Open the Start Menu and search for "Environment Variables".
+     - Click on "Edit the system environment variables".
+     - In the System Properties window, click on the "Environment Variables" button.
+     - Under "System variables", find the `Path` variable and select it.
+     - Click "Edit" and add the path to the `ffmpeg` bin directory (e.g., `C:\ffmpeg\bin`).
+     - Click "OK" to save the changes.
+   - **MacOS**:
+     - Open Terminal.
+     - Add `ffmpeg` to your PATH by editing your shell profile file (e.g., `.bash_profile`, `.zshrc`).
+     - Add the line: `export PATH="/path/to/ffmpeg/bin:$PATH"`
+     - Save the file and run `source ~/.bash_profile` or `source ~/.zshrc` to apply the changes.
+   - **Linux**:
+     - Open Terminal.
+     - Add `ffmpeg` to your PATH by editing your shell profile file (e.g., `.bashrc`, `.profile`).
+     - Add the line: `export PATH="/path/to/ffmpeg/bin:$PATH"`
+     - Save the file and run `source ~/.bashrc` or `source ~/.profile` to apply the changes.
 
 ## Files
 
